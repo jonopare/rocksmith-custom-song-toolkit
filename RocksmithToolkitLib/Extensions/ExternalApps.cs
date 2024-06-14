@@ -9,7 +9,7 @@ namespace RocksmithToolkitLib.Extensions
     public static class ExternalApps
     {
         // path fixed for unit testing compatiblity
-        public static readonly string TOOLKIT_ROOT = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+        public static string TOOLKIT_ROOT = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
         public static readonly string TOOLS_DIR = "tools";
         public static readonly string APP_TOPNG = Path.Combine(TOOLS_DIR, "topng.exe");
         public static readonly string APP_7Z = Path.Combine(TOOLS_DIR, "7za.exe");
